@@ -28,9 +28,11 @@ out/
 
 ## properties
 src/main/resources/config/
+src/test/resources/
 
 ## sql
 src/main/resources/db/
+src/main/resources/mappers/
 
 ### NetBeans ###
 /nbproject/private/
