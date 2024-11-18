@@ -6,12 +6,10 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 @Mapper
-public interface MuscleMapper extends MuscleRepository {
+public interface MuscleMapper {
 
-    @Override
     MuscleDTO findById(int id);
 
-    @Override
     List<MuscleDTO> findAll();
 
 }
